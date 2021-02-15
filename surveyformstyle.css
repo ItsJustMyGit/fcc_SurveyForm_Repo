@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	line-height: 1.25;
+	color: white;
+	background-color: rgba(135, 170, 230, 0.9);
+}
+
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-size: 1.25rem;
+	font-family: "Acme",sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+#title{
+	color: white;
+	font-family: "Acme",sans-serif;
+}
+
+#description{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+input, select{
+	margin: 0;
+	font-family: "Acme",sans-serif;
+}
+
+
+.container{
+	width: 100%;
+	margin: 5% auto 5% auto;
+}
+
+@media(min-width: 560px){
+	.container{
+		max-width: 540px;
+	}
+}
+
+
+span{
+	color: rgba(50, 45, 80, 0.9);
+	font-family: "Acme",sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+label{
+	display: flex;
+	align-items: center;
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+	font-family: "Acme",sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+form{
+	background: rgba(210, 107, 165, 0.9);
+	padding: 2rem 0.5rem;
+	border-radius: 5px;
+	box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.7);
+
+}
+
+@media(min-width: 480px){
+	form{
+		padding: 2.5rem;
+	}
+}
+
+.formdiv{
+	margin: 0 auto 1rem auto;
+}
+
+.form-style{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.form-style:focus{
+	border-color: #9f56a9;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem #9f56a9;
+}
+
+
+.input-radio, .input-checkbox {
+	display: inline-block;
+	min-height: 1.5rem;
+	min-width: 2rem;
+}
+
+.commentbox{
+	min-height: 120px;
+	width: 100%;
+	padding: 0.75rem;
+	resize: vertical;
+	font-family: "Acme",sans-serif;
+}
+
+.button-class{
+	display: block;
+	width: 100%;
+	padding: 0.9rem;
+	color: white;
+	background-color: #813fc0;
+	border: 2px solid white;
+	border-radius: 2px;
+	cursor: pointer;
+	font-family: "Acme",sans-serif;
+}
+
+.reset-btn{
+	background-color: #463f40;
+}
+
+.button-class:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
