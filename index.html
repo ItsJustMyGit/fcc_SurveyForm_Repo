@@ -10,6 +10,7 @@
 
 </head>
 <body>
+	<main>
 	<div class="container">
 		<header>
 			<h1 id="title" class="uppercase">How was your stay?</h1>
@@ -19,12 +20,12 @@
 		</p>
 		<form id="survey-form">
 			<div class="formdiv">
-				<label id="name-label" for="name">Name</label>
-				<input type="text" name="name" id="name" class="form-style" placeholder="Enter Your Full Name eg:Albert Einstein" required>
+				<label id="name-label" for="name">Full Name</label>
+				<input type="text" name="name" id="name" class="form-style" placeholder="Albert Einstein" required>
 			</div>
 			<div class="formdiv">
 				<label id="email-label" for="email">Email</label>
-				<input type="email" name="email" id="email" class="form-style" placeholder="Enter Your Email eg: example@example.com" required>
+				<input type="email" name="email" id="email" class="form-style" placeholder="example@example.com" required>
 			</div>
 			<div class="formdiv">
 				<label id="number-label" for="number">Age <span> (You must be at least 10 years or older)</span></label>
@@ -32,6 +33,7 @@
 			</div>
 			<div class="formdiv">
 				<p>What Feature did You like Most about?</p>
+				<label>
 				<select id="dropdown" name="role" class="form-style" required>
 					<option disabled selected value>Select a Feature</option>
 					<option>Food</option>
@@ -40,6 +42,7 @@
 					<option>Living Conditions</option>
 					<option>Others (You can mention in the commentbox below)</option>
 				</select>
+				</label>
 			</div>
 			<div class="formdiv">
 				<p>Were you satisfied with your stay?</p>
@@ -81,7 +84,8 @@
 			</div>
 			<div class="formdiv">
 				<p>Any Comments or suggestions?</p>
-				<textarea id="comments" name="comment" class="commentbox" placeholder="Enter Your Comment Here..."></textarea>
+				<label>
+				<textarea id="comments" name="comment" class="commentbox" placeholder="Enter Your Comment Here..."></textarea></label>				
 			</div>
 			<div class="formdiv">
 				<button type="submit" id="submit" class="button-class">
@@ -95,8 +99,7 @@
 			</div>
 		</form>
 	</div>
-
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+	</main>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
