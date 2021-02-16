@@ -51,7 +51,7 @@ input, select{
 
 @media(min-width: 560px){
 	.container{
-		max-width: 540px;
+		max-width: 35em;
 	}
 }
 
@@ -109,7 +109,7 @@ form{
 .form-style:focus{
 	border-color: #9f56a9;
 	outline: 0;
-	box-shadow: 0 0 0 0.2rem #9f56a9;
+	box-shadow: 0 0 0.3rem 0.2rem #F3F391;
 }
 
 
@@ -117,7 +117,9 @@ form{
 	display: inline-block;
 	min-height: 1.5rem;
 	min-width: 2rem;
+	margin-right: 0.5rem;
 }
+
 
 .commentbox{
 	min-height: 120px;
@@ -125,6 +127,13 @@ form{
 	padding: 0.75rem;
 	resize: vertical;
 	font-family: "Acme",sans-serif;
+	box-shadow: -5px 5px 2px #9f56a9;
+}
+
+.commentbox:focus{
+	border-color: #9f56a9;
+	outline: 0;
+	box-shadow: 0 0 0.3rem 0.2rem #F3F391;
 }
 
 .button-class{
@@ -145,9 +154,5 @@ form{
 
 .button-class:hover{
 	opacity: 0.8;
+	box-shadow: -0.2rem 0.1rem 0.2rem #F5F08B;
 }
-
-
-
-
-
